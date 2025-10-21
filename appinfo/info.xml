@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>catgifs</id>
+	<name>Cat Gifs</name>
+	<summary>In our app the script reacts to the button click.</summary>
+	<description><![CDATA[In this section of the tutorial, we are going to introduce 4 concepts:
+
+1\. JavaScript dependency list in `package.json`, aka npm packages (Step 2)  
+This JSON file contains all the dependencies that your source JavaScript files need plus some metadata. It can be considered as a local configuration file for npm.
+
+2\. JavaScript sources (step 3)  
+These are the files you write to define what the app's front-end will do.
+
+3\. Vite (step 4)  
+Vite is a tool to compile your source scripts (and their dependencies) to produce the production files.
+
+4\. Production front-end scripts (step 5)  
+They are the final scripts that are actually loaded in your app's front-end (in the browser).]]></description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="sistemas@munisanlorenzo.gob.ar" homepage="">munisanlo</author>
+	<namespace>CatGifs</namespace>
+	<category>tools</category>
+	<bugs>https://error.munisanlo.gob.ar/</bugs>
+	<dependencies>
+		<nextcloud min-version="30" max-version="32"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>catgifs</id>
+			<name>Cat Gifs</name>
+			<route>catgifs.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
