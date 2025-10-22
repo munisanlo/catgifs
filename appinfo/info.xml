@@ -30,9 +30,15 @@ They are the final scripts that are actually loaded in your app's front-end (in 
 		<navigation>
 			<id>catgifs</id>
 			<name>Cat Gifs</name>
+			<!-- syntax is APP_ID.CONTROLLER_NAME.METHOD_NAME -->
+			<!-- syntax is APP_ID(catgifs).CONTROLLER_NAME(page).METHOD_NAME(index) -->
 			<route>catgifs.page.index</route>
 			<icon>app.svg</icon>
+			<!-- Que funcion cumple <order y porque no figura <type link en el tutorial??-->
+			
 			<type>link</type>
+			<order>8</order>
+
 		</navigation>
 	</navigations>
 </info>
