@@ -36,7 +36,7 @@ They are the final scripts that are actually loaded in your app's front-end (in 
 			<icon>app.svg</icon>
 			<!-- Que funcion cumple <order y porque no figura <type link en el tutorial??-->
 			
-			<type>link</type>
+			<!-- <type>link</type> -->
 			<order>8</order>
 
 		</navigation>
