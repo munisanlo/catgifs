@@ -4,7 +4,7 @@
 	<id>catgifs</id>
 	<name>Cat Gifs</name>
 	<summary>In our app the script reacts to the button click.</summary>
-	<description><![CDATA[In this section of the tutorial, we are going to introduce 4 concepts:
+	<description><[CDATA[In this section of the tutorial, we are going to introduce 4 concepts:
 
 1\. JavaScript dependency list in `package.json`, aka npm packages (Step 2)  
 This JSON file contains all the dependencies that your source JavaScript files need plus some metadata. It can be considered as a local configuration file for npm.
@@ -35,10 +35,8 @@ They are the final scripts that are actually loaded in your app's front-end (in 
 			<route>catgifs.page.index</route>
 			<icon>app.svg</icon>
 			<!-- Que funcion cumple <order y porque no figura <type link en el tutorial??-->
-			
 			<!-- <type>link</type> -->
 			<order>8</order>
-
 		</navigation>
 	</navigations>
 </info>
