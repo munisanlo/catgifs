@@ -5,7 +5,7 @@
 	<name>Cat Gifs</name>
 	<summary>In our app the script reacts to the button click.</summary>
 	<description>In this section of the tutoria....</description>
-	<version>1.0.0</version>
+	<version>1.0.0251023</version>
 	<licence>agpl</licence>
 	<author mail="sistemas@munisanlorenzo.gob.ar" homepage="">munisanlo</author>
 	<namespace>CatGifs</namespace>
@@ -23,7 +23,7 @@
 			<route>catgifs.page.mainPage</route>
 			<icon>app.svg</icon>
 			<!-- Que funcion cumple <order y porque no figura <type link en el tutorial??-->
-			<!-- <type>link</type> -->
+			<type>link</type>
 			<order>8</order>
 		</navigation>
 	</navigations>
