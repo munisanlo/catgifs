@@ -20,7 +20,7 @@
 			<name>Cat Gifs</name>
 			<!-- syntax is APP_ID.CONTROLLER_NAME.METHOD_NAME -->
 			<!-- syntax is APP_ID(catgifs).CONTROLLER_NAME(page).METHOD_NAME(index) -->
-			<route>catgifs.page.index</route>
+			<route>catgifs.page.mainPage</route>
 			<icon>app.svg</icon>
 			<!-- Que funcion cumple <order y porque no figura <type link en el tutorial??-->
 			<!-- <type>link</type> -->
